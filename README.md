@@ -1,4 +1,4 @@
-# Google IT-Support
+# IT Technical Support
 
 + Technical Support Fundamentals.
 + The Bits and Bytes of Computer Networking.
