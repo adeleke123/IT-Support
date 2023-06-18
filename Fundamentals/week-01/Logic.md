@@ -26,55 +26,56 @@ AND gate schema and truth table
 The OR gate involves two input signals. The OR rule outputs an “off” signal only when both the inputs are “off.” Otherwise, the output signal will be “on.”
 
 ![image](https://github.com/adeleke123/IT-Support/assets/51156057/8d492e71-08a1-4617-9bf0-a030c84886a7)
-
 OR gate schema and truth table
 
-XOR Gate 
+### XOR Gate 
 The XOR gate also involves two input signals. The XOR rule outputs an “on” signal when only one (but not both) of the inputs are “on.” Otherwise, the output signal will be “off.”
 
-
+![image](https://github.com/adeleke123/IT-Support/assets/51156057/300c6aa5-c66b-44ec-8b2b-331210e27a0d)
 XOR gate schema and truth table
 
 The truth tables for XOR and OR gates are very similar. The only difference is that the XOR gate outputs an “off” when both inputs are “on” while the OR outputs an “on.” Sometimes you may hear the XOR gate referred to as an “exclusive OR” gate.
 
-NAND gate 
+### NAND gate 
 The NAND gate involves two input signals. The NAND rule outputs an “off” signal only when both the inputs are “on.” Otherwise, the output signal will be “on.”
 
-
+![image](https://github.com/adeleke123/IT-Support/assets/51156057/57fcba1f-5a0f-4f87-bd7d-37e5304bc127)
 NAND gate schema and truth table
 
 If you compare the truth tables for the NAND and AND gates, you may notice that the NAND outputs are the opposite of the AND outputs. This is because the NAND rule is just a combination of the AND and NOT rules: it takes the AND output and runs it through the NOT rule! For this reason, you might hear the NAND referred to as a “not-AND” gate.
 
-XNOR gate 
+### XNOR gate 
 Finally, consider the XNOR gate. It also involves two input signals. The XNOR rule outputs an “on” signal only when both the inputs are the same (both “On” or both “Off”). Otherwise, the output signal will be “off.”
 
-
+![image](https://github.com/adeleke123/IT-Support/assets/51156057/bf80e481-bd53-450c-841f-cc0c6f45c9c8)
 XNOR gate schema and truth table
 
 The XNOR rule is another combination of two earlier rules: it takes the XOR output and runs it through the NOT rule. For this reason, you might hear the XNOR referred to as a “not-XOR” gate.
 
-Combining gates (building circuits)
+### Combining gates (building circuits)
+
 Logic gates are physical electronic components—a person can buy them and plug them into a circuit board. Logic gates can be linked together to create complex electrical systems (circuits) that perform complicated binary calculations. You link gates together by letting the output from one gate serve as an input for another gate or by using the same inputs for multiple gates. Computers are this kind of complex electrical system. 
 
 Here’s a schematic drawing for a small circuit built with gates described above:
 
-
+![image](https://github.com/adeleke123/IT-Support/assets/51156057/684babf9-cc05-47f6-b298-9653b78c37e7)
 Combined circuit schematic
 
-Here is the truth table for this circuit:
+* Here is the truth table for this circuit:
 
-
+![image](https://github.com/adeleke123/IT-Support/assets/51156057/336ddda5-6843-4610-b03b-ec847102e09c)
 Combined circuit truth table
 
 This circuit uses three logic gates: an XOR gate, a NOT gate, and an AND gate. It takes two inputs (A and B) and produces two outputs (1 and 2). A and B are the inputs for the XOR gate. The output of that gate became the input of the NOT gate. Then, the output of the NOT gate became an input for the AND gate (with input A as the other). Output 1 is the output from the AND gate. Output 2 is the output from the XOR gate. 
 
-Key takeaways
+### Key takeaways
+
 Logic gates are the physical components that allow computers to make binary calculations.
 
-Logic gates represent different rules for taking one or more binary inputs and outputting a specific binary value (“on” or “off”).
+1. Logic gates represent different rules for taking one or more binary inputs and outputting a specific binary value (“on” or “off”).
 
-Logic gates can be linked so that the output of one gate serves as the input for other gates.
+2. Logic gates can be linked so that the output of one gate serves as the input for other gates.
 
-Circuits are complex electrical systems built by linking logic gates together. Computers are this kind of complex electrical system.
+3. Circuits are complex electrical systems built by linking logic gates together. Computers are this kind of complex electrical system.
 
 
