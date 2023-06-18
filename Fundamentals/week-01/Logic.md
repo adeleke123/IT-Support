@@ -11,27 +11,21 @@ Several logic gates have been developed to represent different rules for produci
 The NOT gate is the simplest because it has only one input signal. The NOT gate takes that input signal and outputs a signal with the opposite binary state. If the input signal is “on,” a NOT gate outputs an “off” signal. If the input signal is “off,” a NOT gate outputs an “on” signal. All the logic gates can be defined using a schematic diagram and truth table. Here’s how this logic rule is often represented:
 
 ![image](https://github.com/adeleke123/IT-Support/assets/51156057/d8585bbc-b389-4ee3-aa95-4c862a3e0cd4)
-
-
-### Not gate schema and truth table
+Not gate schema and truth table
 
 On the left, you have a schematic diagram of a NOT gate. Schematic drawings usually represent a physical NOT gate as a triangle with a small circle on the output side of the gate. To the right of the schematic diagram, you also have a “truth table” that tells you the output value for each of the two possible input values.
-
-![image](https://github.com/adeleke123/IT-Support/assets/51156057/ec2a3e3c-4e32-4a32-aaf0-766d4251445c)
-
 
 ### AND gate
 
 The AND gate involves two input signals rather than just one. Having two input signals means there will be four possible combinations of input values. The AND rule outputs an “on” signal only when both the inputs are “on.” Otherwise, the output signal will be “off.”
 
-![image](https://github.com/adeleke123/IT-Support/assets/51156057/8d492e71-08a1-4617-9bf0-a030c84886a7)
-
-
-### AND gate schema and truth table
+![image](https://github.com/adeleke123/IT-Support/assets/51156057/ec2a3e3c-4e32-4a32-aaf0-766d4251445c)
+AND gate schema and truth table
 
 ### OR gate 
 The OR gate involves two input signals. The OR rule outputs an “off” signal only when both the inputs are “off.” Otherwise, the output signal will be “on.”
 
+![image](https://github.com/adeleke123/IT-Support/assets/51156057/8d492e71-08a1-4617-9bf0-a030c84886a7)
 
 OR gate schema and truth table
 
